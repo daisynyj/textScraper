@@ -1,0 +1,9 @@
+The textScraper is a light weight tool to catch the information from the web page (www.shopping.com). According to the keywords user entered, it will return certain information.
+
+There are two queries that will be performed: One is that, given a keyword, the textScraper will return the total number of results found. Besides, given the key work and a page number, it will return a couple of information of the searching result, including the title, the price, shipping price and the vendor of the commodity.
+
+This project contains three classes. The commodityInfo, which is a class to describe the commodity, we can get or set data of a certain commodity. HtmlParser is the core class to implement the HTML page parsing. We picked up information we want through the parser library¡£ The test class includes a main method to executive the project.And the program will run by queries. To develop this project, I imported the jar library: "HtmlParser" which is a strong tool for people now to analyze and catch information from HTML file. 
+The development environment is Java/Eclipse this time. The main technique I used is HTMLparser with its filter and nodes mechanism. I built URL according to the keywords user input and initialized a parser to parse the information. There is an ArrayList to store all the commodities showed on the current page. Two methods, hp.getItemNumber() and hp.getCommodityInfo() return the information corresponding to requirement.  
+
+Author: Yujie Ni
+Contact Infomation:  yujie.ni@duke.edu 919-536-2782   
